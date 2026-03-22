@@ -3,65 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A16666660000000000000010 /* CoinFlipProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000020 /* CoinFlipProApp.swift */; };
-		A16666660000000000000011 /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000021 /* Decision.swift */; };
-		A16666660000000000000012 /* CoinFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000022 /* CoinFlipViewModel.swift */; };
-		A16666660000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000023 /* ContentView.swift */; };
-		A16666660000000000000014 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000024 /* HistoryView.swift */; };
-		A16666660000000000000015 /* HandDrawnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000025 /* HandDrawnStyle.swift */; };
+		011B999BE8CA83297E0220E1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 210898BD4C00A5189AFFC553 /* HistoryView.swift */; };
+		03F3AB2212ADC5FE7040E56B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC410BB72288694EA0B543C /* ContentView.swift */; };
+		1DBA969D833AD986D6FAC106 /* HandDrawnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475CD45E0A6E68FC80616AAD /* HandDrawnStyle.swift */; };
+		572B8DC92D51E00ACD4C267D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342F58250A588D8437A59410 /* Assets.xcassets */; };
+		57AA77F972358FEF51A87C68 /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DBEA3BB9B6CA8D7F3E2E14B /* Decision.swift */; };
+		A4AC90EC4043A68B58BF9AF1 /* CoinFlipProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EBA14561E51B2C87D4B6FD /* CoinFlipProApp.swift */; };
+		F1335E6707090C99BE7D447B /* CoinFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E86D58FB26A51D0F391C89 /* CoinFlipViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A16666660000000000000020 /* CoinFlipProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipProApp.swift; sourceTree = "<group>"; };
-		A16666660000000000000021 /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
-		A16666660000000000000022 /* CoinFlipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewModel.swift; sourceTree = "<group>"; };
-		A16666660000000000000023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A16666660000000000000024 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		A16666660000000000000025 /* HandDrawnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDrawnStyle.swift; sourceTree = "<group>"; };
-		A17777770000000000000002 /* CoinFlipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFlipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E86D58FB26A51D0F391C89 /* CoinFlipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewModel.swift; sourceTree = "<group>"; };
+		1DBEA3BB9B6CA8D7F3E2E14B /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
+		210898BD4C00A5189AFFC553 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		342F58250A588D8437A59410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475CD45E0A6E68FC80616AAD /* HandDrawnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDrawnStyle.swift; sourceTree = "<group>"; };
+		9AC410BB72288694EA0B543C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1FF817DC9FE698CB79D6342 /* CoinFlipPro.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = CoinFlipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7EBA14561E51B2C87D4B6FD /* CoinFlipProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipProApp.swift; sourceTree = "<group>"; };
+		E72E79EC9FCF1F5CD7255CC4 /* CoinFlipPro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoinFlipPro.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A14444440000000000000001 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
-		A15555550000000000000001 = {
+		111E00906710E00DB3ACE6B4 = {
 			isa = PBXGroup;
 			children = (
-				A15555550000000000000002 /* CoinFlipPro */,
-				A15555550000000000000003 /* Products */,
+				2348B7C2407FB312B20AB923 /* CoinFlipPro */,
+				538618BB06152881BEC71830 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A15555550000000000000002 /* CoinFlipPro */ = {
+		2348B7C2407FB312B20AB923 /* CoinFlipPro */ = {
 			isa = PBXGroup;
 			children = (
-				A16666660000000000000020 /* CoinFlipProApp.swift */,
-				A16666660000000000000021 /* Decision.swift */,
-				A16666660000000000000022 /* CoinFlipViewModel.swift */,
-				A16666660000000000000023 /* ContentView.swift */,
-				A16666660000000000000024 /* HistoryView.swift */,
-				A16666660000000000000025 /* HandDrawnStyle.swift */,
-				A18888888000000000000001 /* Assets.xcassets */,
+				342F58250A588D8437A59410 /* Assets.xcassets */,
+				E72E79EC9FCF1F5CD7255CC4 /* CoinFlipPro.entitlements */,
+				B7EBA14561E51B2C87D4B6FD /* CoinFlipProApp.swift */,
+				17E86D58FB26A51D0F391C89 /* CoinFlipViewModel.swift */,
+				9AC410BB72288694EA0B543C /* ContentView.swift */,
+				1DBEA3BB9B6CA8D7F3E2E14B /* Decision.swift */,
+				475CD45E0A6E68FC80616AAD /* HandDrawnStyle.swift */,
+				210898BD4C00A5189AFFC553 /* HistoryView.swift */,
 			);
 			path = CoinFlipPro;
 			sourceTree = "<group>";
 		};
-		A15555550000000000000003 /* Products */ = {
+		538618BB06152881BEC71830 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A17777770000000000000002 /* CoinFlipPro.app */,
+				B1FF817DC9FE698CB79D6342 /* CoinFlipPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,154 +63,112 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A16666660000000000000001 /* CoinFlipPro */ = {
+		559E02B8E8C2674635AF72C8 /* CoinFlipPro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A17777770000000000000003 /* Build configuration list for PBXNativeTarget "CoinFlipPro" */;
+			buildConfigurationList = 0EE5B16E57C9E2928A31E24C /* Build configuration list for PBXNativeTarget "CoinFlipPro" */;
 			buildPhases = (
-				A16666660000000000000002 /* Sources */,
-				A14444440000000000000001 /* Frameworks */,
-				A16666660000000000000003 /* Resources */,
+				000AEFAE4484830991EE8549 /* Sources */,
+				3348BD72F8A158E3CE50E608 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CoinFlipPro;
+			packageProductDependencies = (
+			);
 			productName = CoinFlipPro;
-			productReference = A17777770000000000000002 /* CoinFlipPro.app */;
+			productReference = B1FF817DC9FE698CB79D6342 /* CoinFlipPro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A17777770000000000000001 /* Project object */ = {
+		9559F9F09F1A21E387D57378 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					A16666660000000000000001 = {
-						CreatedOnToolsVersion = 15.0;
-					};
 				};
 			};
-			buildConfigurationList = A17777770000000000000002 /* Build configuration list for PBXProject "CoinFlipPro" */;
-			compatibilityVersion = "Xcode 14.0";
+			buildConfigurationList = 092662BCDAE13F9937CAE6B4 /* Build configuration list for PBXProject "CoinFlipPro" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
-			mainGroup = A15555550000000000000001;
-			productRefGroup = A15555550000000000000003 /* Products */;
+			mainGroup = 111E00906710E00DB3ACE6B4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 538618BB06152881BEC71830 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A16666660000000000000001 /* CoinFlipPro */,
+				559E02B8E8C2674635AF72C8 /* CoinFlipPro */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A16666660000000000000003 /* Resources */ = {
+		3348BD72F8A158E3CE50E608 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				572B8DC92D51E00ACD4C267D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A16666660000000000000002 /* Sources */ = {
+		000AEFAE4484830991EE8549 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A16666660000000000000010 /* CoinFlipProApp.swift in Sources */,
-				A16666660000000000000011 /* Decision.swift in Sources */,
-				A16666660000000000000012 /* CoinFlipViewModel.swift in Sources */,
-				A16666660000000000000013 /* ContentView.swift in Sources */,
-				A16666660000000000000014 /* HistoryView.swift in Sources */,
-				A16666660000000000000015 /* HandDrawnStyle.swift in Sources */,
+				A4AC90EC4043A68B58BF9AF1 /* CoinFlipProApp.swift in Sources */,
+				F1335E6707090C99BE7D447B /* CoinFlipViewModel.swift in Sources */,
+				03F3AB2212ADC5FE7040E56B /* ContentView.swift in Sources */,
+				57AA77F972358FEF51A87C68 /* Decision.swift in Sources */,
+				1DBA969D833AD986D6FAC106 /* HandDrawnStyle.swift in Sources */,
+				011B999BE8CA83297E0220E1 /* HistoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A18888888000000000000010 /* Debug */ = {
+		5610C9064C8F3D1D3A4A9B29 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoinFlipPro/CoinFlipPro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_CFBundleDisplayName = "Coin Flip Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
+					"@executable_path/Frameworks",
 				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.CoinFlipPro;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Release;
 		};
-		A18888888000000000000011 /* Release */ = {
+		615AEE2F2963E25091961F31 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -245,9 +197,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -256,99 +208,126 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = CoinFlipPro;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A19999999000000000000010 /* Debug */ = {
+		ADBF6A32B34E4C0587A9AD82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "Coin Flip Pro";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"DEBUG=1",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.pro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = CoinFlipPro;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A19999999000000000000011 /* Release */ = {
+		E56A13EA5262DAA69DDF8BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = "";
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				CODE_SIGN_ENTITLEMENTS = CoinFlipPro/CoinFlipPro.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_KEY_CFBundleDisplayName = "Coin Flip Pro";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.pro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.CoinFlipPro;
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A17777770000000000000002 /* Build configuration list for PBXProject "CoinFlipPro" */ = {
+		092662BCDAE13F9937CAE6B4 /* Build configuration list for PBXProject "CoinFlipPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A18888888000000000000010 /* Debug */,
-				A18888888000000000000011 /* Release */,
+				ADBF6A32B34E4C0587A9AD82 /* Debug */,
+				615AEE2F2963E25091961F31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		A17777770000000000000003 /* Build configuration list for PBXNativeTarget "CoinFlipPro" */ = {
+		0EE5B16E57C9E2928A31E24C /* Build configuration list for PBXNativeTarget "CoinFlipPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A19999999000000000000010 /* Debug */,
-				A19999999000000000000011 /* Release */,
+				E56A13EA5262DAA69DDF8BE2 /* Debug */,
+				5610C9064C8F3D1D3A4A9B29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A17777770000000000000001 /* Project object */;
+	rootObject = 9559F9F09F1A21E387D57378 /* Project object */;
 }

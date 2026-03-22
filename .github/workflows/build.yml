@@ -13,8 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: List available Xcode versions
-      run: ls /Applications | grep Xcode
+    - name: Install XcodeGen
+      run: brew install xcodegen
+    
+    - name: Generate Xcode project
+      run: xcodegen generate
     
     - name: Build iOS App
       run: |
