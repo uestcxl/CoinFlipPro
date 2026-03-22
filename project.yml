@@ -21,6 +21,7 @@ targets:
       - CoinFlipPro
     settings:
       base:
+        GENERATE_INFOPLIST_FILE: YES
         INFOPLIST_KEY_CFBundleDisplayName: Coin Flip Pro
         INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.entertainment
         INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
