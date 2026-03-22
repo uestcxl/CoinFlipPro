@@ -133,8 +133,10 @@ struct HistoryView: View {
                         AxisMarks(position: .leading, values: [0, 25, 50, 75, 100]) { value in
                             AxisGridLine(stroke: StrokeStyle(lineWidth: 0.5, dash: [2, 2]))
                             AxisValueLabel {
-                                Text("\(Int(value))%")
-                                    .font(.custom("ChalkboardSE-Regular", size: 10))
+                                if let intValue = value.as(Double.self) {
+                                    Text("\(Int(intValue))%")
+                                        .font(.custom("ChalkboardSE-Regular", size: 10))
+                                }
                             }
                         }
                     }
@@ -235,7 +237,8 @@ struct HistoryView: View {
 }
 
 // MARK: - Luck Data Point
-struct LuckDataPoint {
+struct LuckDataPoint: Identifiable {
+    let id = UUID()
     let flipNumber: Int
     let luckRate: Double
 }
@@ -285,7 +288,7 @@ struct DecisionRow: View {
                 HStack(spacing: 4) {
                     Text(decision.resultLabel)
                         .font(.custom("ChalkboardSE-Bold", size: 14))
-                        .foregroundStyle(decision.result ? .doodleGreen : .doodleOrange)
+                        .foregroundStyle(decision.result ? Color.doodleGreen : Color.doodleOrange)
 
                     Text("→")
                         .foregroundStyle(Color.inkGray)

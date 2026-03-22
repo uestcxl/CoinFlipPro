@@ -34,7 +34,7 @@ struct PaperTexture: View {
                         path.move(to: CGPoint(x: x, y: y))
                         path.addLine(
                             to: CGPoint(
-                                x: x + length * cos(angle.radians),
+                                x: x + length * CGFloat(cos(angle.radians)),
                                 y: y + length * sin(angle.radians)
                             )
                         )
@@ -200,7 +200,7 @@ struct DoodleStar: Shape {
             let radius = i % 2 == 0 ? outerRadius : innerRadius
             let angle = Angle.degrees(Double(i) * 360 / Double(points * 2) - 90)
             let point = CGPoint(
-                x: center.x + radius * cos(angle.radians),
+                x: center.x + radius * CGFloat(cos(angle.radians)),
                 y: center.y + radius * sin(angle.radians)
             )
 

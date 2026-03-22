@@ -115,7 +115,7 @@ struct ContentView: View {
                     VStack(spacing: 8) {
                         Text(result ? "正面!" : "反面!")
                             .font(.custom("ChalkboardSE-Bold", size: 28))
-                            .foregroundStyle(result ? .doodleGreen : .doodleOrange)
+                            .foregroundStyle(result ? Color.doodleGreen : Color.doodleOrange)
 
                         if !viewModel.question.isEmpty || viewModel.optionA != "选项 A" {
                             Text("结果: \(result ? viewModel.optionA : viewModel.optionB)")
@@ -151,7 +151,7 @@ struct ContentView: View {
                     .degrees(viewModel.flipProgress * 180),
                     axis: (x: 0, y: 1, z: 0)
                 )
-                .scaleEffect(x: abs(cos(.degrees(viewModel.flipProgress * 180))), y: 1)
+                .scaleEffect(x: abs(cos(Angle.degrees(viewModel.flipProgress * 180).radians)), y: 1)
         }
     }
 
