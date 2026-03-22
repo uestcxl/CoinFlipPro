@@ -13,8 +13,8 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Select Xcode version
-      run: sudo xcode-select -switch /Applications/Xcode_15.2.app
+    - name: List available Xcode versions
+      run: ls /Applications | grep Xcode
     
     - name: Build iOS App
       run: |
