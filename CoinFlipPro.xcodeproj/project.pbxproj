@@ -3,28 +3,26 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A11111110000000000000001 /* CoinFlipProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000001 /* CoinFlipProApp.swift */; };
-		A11111110000000000000002 /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000002 /* Decision.swift */; };
-		A11111110000000000000003 /* CoinFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000003 /* CoinFlipViewModel.swift */; };
-		A11111110000000000000004 /* HandDrawnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000004 /* HandDrawnStyle.swift */; };
-		A11111110000000000000005 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000005 /* ContentView.swift */; };
-		A11111110000000000000006 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000006 /* HistoryView.swift */; };
-		A11111110000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12222220000000000000007 /* Assets.xcassets */; };
+		A16666660000000000000010 /* CoinFlipProApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000020 /* CoinFlipProApp.swift */; };
+		A16666660000000000000011 /* Decision.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000021 /* Decision.swift */; };
+		A16666660000000000000012 /* CoinFlipViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000022 /* CoinFlipViewModel.swift */; };
+		A16666660000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000023 /* ContentView.swift */; };
+		A16666660000000000000014 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000024 /* HistoryView.swift */; };
+		A16666660000000000000015 /* HandDrawnStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16666660000000000000025 /* HandDrawnStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A13333330000000000000001 /* CoinFlipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFlipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A12222220000000000000001 /* CoinFlipProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipProApp.swift; sourceTree = "<group>"; };
-		A12222220000000000000002 /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
-		A12222220000000000000003 /* CoinFlipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewModel.swift; sourceTree = "<group>"; };
-		A12222220000000000000004 /* HandDrawnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDrawnStyle.swift; sourceTree = "<group>"; };
-		A12222220000000000000005 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		A12222220000000000000006 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
-		A12222220000000000000007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A16666660000000000000020 /* CoinFlipProApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipProApp.swift; sourceTree = "<group>"; };
+		A16666660000000000000021 /* Decision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decision.swift; sourceTree = "<group>"; };
+		A16666660000000000000022 /* CoinFlipViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlipViewModel.swift; sourceTree = "<group>"; };
+		A16666660000000000000023 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A16666660000000000000024 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		A16666660000000000000025 /* HandDrawnStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandDrawnStyle.swift; sourceTree = "<group>"; };
+		A17777770000000000000002 /* CoinFlipPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinFlipPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,13 +47,13 @@
 		A15555550000000000000002 /* CoinFlipPro */ = {
 			isa = PBXGroup;
 			children = (
-				A12222220000000000000001 /* CoinFlipProApp.swift */,
-				A12222220000000000000002 /* Decision.swift */,
-				A12222220000000000000003 /* CoinFlipViewModel.swift */,
-				A12222220000000000000004 /* HandDrawnStyle.swift */,
-				A12222220000000000000005 /* ContentView.swift */,
-				A12222220000000000000006 /* HistoryView.swift */,
-				A12222220000000000000007 /* Assets.xcassets */,
+				A16666660000000000000020 /* CoinFlipProApp.swift */,
+				A16666660000000000000021 /* Decision.swift */,
+				A16666660000000000000022 /* CoinFlipViewModel.swift */,
+				A16666660000000000000023 /* ContentView.swift */,
+				A16666660000000000000024 /* HistoryView.swift */,
+				A16666660000000000000025 /* HandDrawnStyle.swift */,
+				A18888888000000000000001 /* Assets.xcassets */,
 			);
 			path = CoinFlipPro;
 			sourceTree = "<group>";
@@ -63,7 +61,7 @@
 		A15555550000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A13333330000000000000001 /* CoinFlipPro.app */,
+				A17777770000000000000002 /* CoinFlipPro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,16 +82,14 @@
 			dependencies = (
 			);
 			name = CoinFlipPro;
-			packageProductDependencies = (
-			);
 			productName = CoinFlipPro;
-			productReference = A13333330000000000000001 /* CoinFlipPro.app */;
+			productReference = A17777770000000000000002 /* CoinFlipPro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A18888880000000000000001 /* Project object */ = {
+		A17777770000000000000001 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
@@ -105,19 +101,15 @@
 					};
 				};
 			};
-			buildConfigurationList = A17777770000000000000001 /* Build configuration list for PBXProject "CoinFlipPro" */;
-			compatibilityVersion = "Xcode 15.0";
+			buildConfigurationList = A17777770000000000000002 /* Build configuration list for PBXProject "CoinFlipPro" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
-				"zh-Hans",
 			);
 			mainGroup = A15555550000000000000001;
-			minimizedProjectReferenceProxies = (
-			);
-			preferredProjectObjectVersion = 77;
 			productRefGroup = A15555550000000000000003 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -132,7 +124,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000007 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,19 +134,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11111110000000000000001 /* CoinFlipProApp.swift in Sources */,
-				A11111110000000000000002 /* Decision.swift in Sources */,
-				A11111110000000000000003 /* CoinFlipViewModel.swift in Sources */,
-				A11111110000000000000004 /* HandDrawnStyle.swift in Sources */,
-				A11111110000000000000005 /* ContentView.swift in Sources */,
-				A11111110000000000000006 /* HistoryView.swift in Sources */,
+				A16666660000000000000010 /* CoinFlipProApp.swift in Sources */,
+				A16666660000000000000011 /* Decision.swift in Sources */,
+				A16666660000000000000012 /* CoinFlipViewModel.swift in Sources */,
+				A16666660000000000000013 /* ContentView.swift in Sources */,
+				A16666660000000000000014 /* HistoryView.swift in Sources */,
+				A16666660000000000000015 /* HandDrawnStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		A19999990000000000000001 /* Debug */ = {
+		A18888888000000000000010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +209,7 @@
 			};
 			name = Debug;
 		};
-		A19999990000000000000002 /* Release */ = {
+		A18888888000000000000011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,7 +265,7 @@
 			};
 			name = Release;
 		};
-		A1AAAAAAAA000000000000001 /* Debug */ = {
+		A19999999000000000000010 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,12 +291,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.10;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A1AAAAAAAA000000000000002 /* Release */ = {
+		A19999999000000000000011 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -331,7 +322,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.coinflip.pro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.10;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -339,11 +330,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A17777770000000000000001 /* Build configuration list for PBXProject "CoinFlipPro" */ = {
+		A17777770000000000000002 /* Build configuration list for PBXProject "CoinFlipPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A19999990000000000000001 /* Debug */,
-				A19999990000000000000002 /* Release */,
+				A18888888000000000000010 /* Debug */,
+				A18888888000000000000011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -351,13 +342,13 @@
 		A17777770000000000000003 /* Build configuration list for PBXNativeTarget "CoinFlipPro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A1AAAAAAAA000000000000001 /* Debug */,
-				A1AAAAAAAA000000000000002 /* Release */,
+				A19999999000000000000010 /* Debug */,
+				A19999999000000000000011 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = A18888880000000000000001 /* Project object */;
+	rootObject = A17777770000000000000001 /* Project object */;
 }
